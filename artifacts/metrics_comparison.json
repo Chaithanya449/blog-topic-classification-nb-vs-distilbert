@@ -1,0 +1,30 @@
+{
+    "models": {
+        "naive_bayes": {
+            "name": "Multinomial Naive Bayes (TF-IDF)",
+            "accuracy": 0.8666666666666667,
+            "precision_macro": 0.8702877598407784,
+            "recall_macro": 0.8666666666666668,
+            "macro_f1": 0.8653479539280348,
+            "weighted_f1": 0.8653479539280348,
+            "training_time_seconds": 0.3868532000342384,
+            "inference_time_seconds": 0.03572790010366589,
+            "latency_ms_per_sample": 0.11909300034555297
+        },
+        "distilbert": {
+            "name": "DistilBERT (Fine-Tuned)",
+            "accuracy": 0.8633333333333333,
+            "precision_macro": 0.9073097041847042,
+            "recall_macro": 0.8633333333333335,
+            "macro_f1": 0.8726960835880877,
+            "weighted_f1": 0.8726960835880878,
+            "training_time_seconds": 1233.013459199923,
+            "inference_time_seconds": 16.076548899989575,
+            "latency_ms_per_sample": 53.58849633329858
+        }
+    },
+    "improvements": {
+        "accuracy_delta": -0.0033333333333334103,
+        "macro_f1_delta": 0.007348129660052938
+    }
+}

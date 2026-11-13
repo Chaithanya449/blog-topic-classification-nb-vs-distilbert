@@ -1,0 +1,28 @@
+=== Multinomial Naive Bayes Baseline Classification Report ===
+
+                          precision    recall  f1-score   support
+
+             alt.atheism     0.8571    0.8000    0.8276        15
+           comp.graphics     0.8571    0.8000    0.8276        15
+ comp.os.ms-windows.misc     0.8000    0.8000    0.8000        15
+comp.sys.ibm.pc.hardware     0.7333    0.7333    0.7333        15
+   comp.sys.mac.hardware     1.0000    0.8000    0.8889        15
+          comp.windows.x     0.8667    0.8667    0.8667        15
+            misc.forsale     0.9286    0.8667    0.8966        15
+               rec.autos     0.8333    1.0000    0.9091        15
+         rec.motorcycles     1.0000    0.9333    0.9655        15
+      rec.sport.baseball     0.9375    1.0000    0.9677        15
+        rec.sport.hockey     1.0000    0.9333    0.9655        15
+               sci.crypt     0.8824    1.0000    0.9375        15
+         sci.electronics     0.8571    0.8000    0.8276        15
+                 sci.med     0.9286    0.8667    0.8966        15
+               sci.space     0.8750    0.9333    0.9032        15
+  soc.religion.christian     0.7895    1.0000    0.8824        15
+      talk.politics.guns     0.8667    0.8667    0.8667        15
+   talk.politics.mideast     0.8333    1.0000    0.9091        15
+      talk.politics.misc     0.9167    0.7333    0.8148        15
+      talk.religion.misc     0.6429    0.6000    0.6207        15
+
+                accuracy                         0.8667       300
+               macro avg     0.8703    0.8667    0.8653       300
+            weighted avg     0.8703    0.8667    0.8653       300

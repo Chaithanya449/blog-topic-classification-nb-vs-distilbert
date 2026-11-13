@@ -1,0 +1,28 @@
+=== DistilBERT Fine-Tuned Classification Report ===
+
+                          precision    recall  f1-score   support
+
+             alt.atheism     1.0000    0.6000    0.7500        15
+           comp.graphics     1.0000    0.9333    0.9655        15
+ comp.os.ms-windows.misc     1.0000    0.9333    0.9655        15
+comp.sys.ibm.pc.hardware     0.9091    0.6667    0.7692        15
+   comp.sys.mac.hardware     0.7222    0.8667    0.7879        15
+          comp.windows.x     1.0000    0.8667    0.9286        15
+            misc.forsale     0.4167    1.0000    0.5882        15
+               rec.autos     1.0000    0.8667    0.9286        15
+         rec.motorcycles     1.0000    0.7333    0.8462        15
+      rec.sport.baseball     0.9375    1.0000    0.9677        15
+        rec.sport.hockey     0.8571    0.8000    0.8276        15
+               sci.crypt     1.0000    0.8667    0.9286        15
+         sci.electronics     1.0000    0.8000    0.8889        15
+                 sci.med     0.8750    0.9333    0.9032        15
+               sci.space     0.9286    0.8667    0.8966        15
+  soc.religion.christian     1.0000    0.9333    0.9655        15
+      talk.politics.guns     0.8750    0.9333    0.9032        15
+   talk.politics.mideast     0.9375    1.0000    0.9677        15
+      talk.politics.misc     1.0000    0.9333    0.9655        15
+      talk.religion.misc     0.6875    0.7333    0.7097        15
+
+                accuracy                         0.8633       300
+               macro avg     0.9073    0.8633    0.8727       300
+            weighted avg     0.9073    0.8633    0.8727       300
