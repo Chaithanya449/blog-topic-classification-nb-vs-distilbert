@@ -1,0 +1,17 @@
+# Core Deep Learning & NLP
+torch>=2.0.0
+transformers>=4.40.0
+accelerate>=1.1.0
+
+# Traditional ML & Preprocessing
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+textblob>=0.17.0
+
+# Visualization & Utilities
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pyyaml>=6.0
+tqdm>=4.66.0
+
